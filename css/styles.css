@@ -2,12 +2,12 @@
   --main-font: Roboto, sans-serif;
   --logo-font: Raleway, sans-serif;
   /* color */
-  --main-title: #2f303a;
+  --main-title: #2f303A;
   --hero-bg: #000000;
   --filter-btn: #212121;
   --address: #757575;
   --bg-btn: #2196f3;
-  --colo-btn: #ffffff;
+  --color-btn: #ffffff;
   --filter-gd-btn: #f5f4fa;
 }
 body {
@@ -38,9 +38,6 @@ body {
 .current {
   color: var(--bg-btn);
 }
-.hero {
-  background: var(--main-title);
-}
 /* nav header*/
 .header-nav {
   text-decoration: none;
@@ -70,7 +67,6 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
-
 /* main title */
 .hero {
   text-align: center;
@@ -84,7 +80,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  background: var(--main-title);
 }
 /* button */
 .btn {
@@ -172,7 +167,7 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--colo-btn);
+  color: var(--color-btn);
   background-color: var(--bg-btn);
 }
 /* projects */
@@ -196,7 +191,7 @@ body {
   background-color: var(--hero-bg);
 }
 .logo-footer {
-  color: var(--colo-btn);
+  color: var(--color-btn);
 }
 .address-footer {
   text-decoration: none;
@@ -206,7 +201,7 @@ body {
   text-align: left;
 }
 .address {
-  color: var(--colo-btn);
+  color: var(--color-btn);
 }
 .mailto-footer,
 .tel-footer {
