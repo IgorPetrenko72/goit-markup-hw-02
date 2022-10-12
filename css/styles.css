@@ -35,9 +35,6 @@ body {
 .logo-header {
   color: var(--hero-bg);
 }
-.current {
-  color: var(--bg-btn);
-}
 /* nav header*/
 .header-nav {
   text-decoration: none;
@@ -45,6 +42,12 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--filter-btn);
+}
+.link-nav {
+  color: var(--filter-btn);
+}
+.current {
+  color: var(--bg-btn);
 }
 .link:hover,
 .link:focus {
